@@ -1,9 +1,11 @@
 import 'dart:convert';
 
-import 'package:flutter_dotenv/flutter_dotenv.dart';
+// import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:flutter_config/flutter_config.dart';
 import 'package:http/http.dart' as http;
 
-final GOOGLE_MAPS_API_KEY = dotenv.env['GOOGLE_MAPS_API_KEY'];
+// final GOOGLE_MAPS_API_KEY = dotenv.env['GOOGLE_MAPS_API_KEY'];
+final GOOGLE_MAPS_API_KEY = FlutterConfig.get('GOOGLE_MAPS_API_KEY');
 
 class LocationHelper {
   static String generateLocationPreviewImage({

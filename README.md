@@ -7,7 +7,7 @@
 - Persisting data in a local SQL database with [sqflite](https://pub.dev/packages/sqflite);
 - Access Google Maps with [google_maps_flutter](https://pub.dev/packages/google_maps_flutter);
 - Fetching data from [Google Maps API](https://developers.google.com/maps) using the [Http package](https://pub.dev/packages/http);
-- Defined ENV variables with [flutter_dotenv](https://pub.dev/packages/flutter_dotenv) package;
+- Defined ENV variables across Flutter/Android/iOS with [flutter_config](https://pub.dev/packages/flutter_config) package;
 
 #
 
