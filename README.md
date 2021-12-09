@@ -11,6 +11,10 @@
 
 #
 
+<b>Note:</b> The purpose of this app is to explore native functionalities from Dart/Flutter as from third-party packages as well. So the UI it's not as fancy as a final product for a real app.
+
+#
+
 For help getting started with Flutter, view the
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
